@@ -1,0 +1,28 @@
+package io.github.ordemservicoapi.model.entity;
+
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+import io.github.ordemservicoapi.model.enums.Situacao;
+import io.github.ordemservicoapi.model.enums.Status;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+
+@Data
+@Builder
+@AllArgsConstructor
+public class OrdemServico {
+	private Integer id;
+	private Integer idCliente;
+	private Integer usuario;
+	private LocalTime hora;
+	private LocalDate data;
+	private BigDecimal preco=BigDecimal.ZERO;
+	private String descricao;
+	private Status status;
+	private Situacao situacao;
+	private LocalDate dataPrevista;
+	
+}

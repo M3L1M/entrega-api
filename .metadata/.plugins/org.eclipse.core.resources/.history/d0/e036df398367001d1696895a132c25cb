@@ -1,0 +1,7 @@
+package io.github.ordemservicoapi.exception;
+
+import RUNTIMEEXCEP;
+
+public class RegraNegocioException extends RUNTIMEEXCEP {
+
+}

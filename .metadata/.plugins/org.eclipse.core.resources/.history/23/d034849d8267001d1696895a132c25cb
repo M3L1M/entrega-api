@@ -1,0 +1,40 @@
+package io.github.ordemservicoapi.service.impl;
+
+import java.util.List;
+
+import io.github.ordemservicoapi.model.entity.Chamado;
+import io.github.ordemservicoapi.service.ChamadoService;
+
+public class ChamadoServiceImpl implements ChamadoService {
+
+	@Override
+	public List<Chamado> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Chamado save(Chamado chamado) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Chamado update(Integer id, Chamado chamado) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Chamado delete(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Chamado obterChamadoPorId(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
